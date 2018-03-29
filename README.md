@@ -4,13 +4,12 @@
 
 ## 使用
 
-#### 1、安装MonkeyDev
+#### 1、安装MonkeyDev(如已安装，跳过)
 
 - 安装最新的[theos](https://github.com/theos/theos/wiki/Installation)
 
 ```
 sudo git clone --recursive https://github.com/theos/theos.git /opt/theos
-
 ```
 
 - 安装ldid(如安装theos过程安装了ldid，跳过)
