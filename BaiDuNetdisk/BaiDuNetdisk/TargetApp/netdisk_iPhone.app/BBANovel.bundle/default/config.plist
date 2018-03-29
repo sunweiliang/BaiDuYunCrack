@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    
+    <!-- v8.5 小说下载AlertView文案 -->
+	<key>TXT.FormatNovelDownloadAlertMessage</key>
+	<string>&lt;html&gt;&lt;body&gt;&lt;font color=&apos;#333333&apos; style=&apos;font-size:16px;&apos;&gt;免费和已购买章节(%@)&lt;/font&gt;&lt;br style=&apos;line-height:0.1;&apos;&gt;&lt;/br&gt;&lt;font color=&apos;#999999&apos; style=&apos;font-size:16px;&apos;&gt;*因资源方要求，包月和广告优惠状态下的章节不能离线阅读&lt;/font&gt;&lt;/body&gt;&lt;/html&gt;</string>
+
+</dict>
+</plist>

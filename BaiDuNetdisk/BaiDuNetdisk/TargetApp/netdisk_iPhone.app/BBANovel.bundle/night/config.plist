@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>color_novel_reader_setting_text</key>
+	<string>#FF666666</string>
+	<key>image_novel_reader_guide_button_normal</key>
+	<string>novel_reader_guide_button_normal_night</string>
+	<key>image_novel_reader_guide_button_press</key>
+	<string>novel_reader_guide_button_press_night</string>
+	<key>color_novel_reader_setting_line</key>
+	<string>#FF303030</string>
+</dict>
+</plist>

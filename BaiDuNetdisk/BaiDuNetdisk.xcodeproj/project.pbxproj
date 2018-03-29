@@ -1,0 +1,670 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		73556703206CC5DF001FDD70 /* MethodTraceConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 73556702206CC5DF001FDD70 /* MethodTraceConfig.plist */; };
+		73556706206CC5DF001FDD70 /* put ipa or app here in Resources */ = {isa = PBXBuildFile; fileRef = 73556705206CC5DF001FDD70 /* put ipa or app here */; };
+		7355670E206CC5DF001FDD70 /* libBaiDuNetdiskDylib.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7355670D206CC5DF001FDD70 /* libBaiDuNetdiskDylib.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		73556713206CC5DF001FDD70 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73556712206CC5DF001FDD70 /* JavaScriptCore.framework */; };
+		73556715206CC5DF001FDD70 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73556714206CC5DF001FDD70 /* Foundation.framework */; };
+		73556717206CC5DF001FDD70 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73556716206CC5DF001FDD70 /* UIKit.framework */; };
+		7355671B206CC5DF001FDD70 /* ANYMethodLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 7355671A206CC5DF001FDD70 /* ANYMethodLog.h */; };
+		7355671D206CC5DF001FDD70 /* ANYMethodLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 7355671C206CC5DF001FDD70 /* ANYMethodLog.m */; };
+		7355671F206CC5DF001FDD70 /* MethodTrace.h in Headers */ = {isa = PBXBuildFile; fileRef = 7355671E206CC5DF001FDD70 /* MethodTrace.h */; };
+		73556721206CC5DF001FDD70 /* MethodTrace.m in Sources */ = {isa = PBXBuildFile; fileRef = 73556720206CC5DF001FDD70 /* MethodTrace.m */; };
+		73556726206CC5DF001FDD70 /* AntiAntiDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = 73556725206CC5DF001FDD70 /* AntiAntiDebug.m */; };
+		73556729206CC5DF001FDD70 /* fishhook.c in Sources */ = {isa = PBXBuildFile; fileRef = 73556728206CC5DF001FDD70 /* fishhook.c */; };
+		7355672B206CC5DF001FDD70 /* fishhook.h in Headers */ = {isa = PBXBuildFile; fileRef = 7355672A206CC5DF001FDD70 /* fishhook.h */; };
+		7355672E206CC5DF001FDD70 /* BaiDuNetdiskDylib.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7355672D206CC5DF001FDD70 /* BaiDuNetdiskDylib.mm */; };
+		73556730206CC5DF001FDD70 /* BaiDuNetdiskDylib.h in Headers */ = {isa = PBXBuildFile; fileRef = 7355672F206CC5DF001FDD70 /* BaiDuNetdiskDylib.h */; };
+		73556732206CC5DF001FDD70 /* BaiDuNetdiskDylib.m in Sources */ = {isa = PBXBuildFile; fileRef = 73556731206CC5DF001FDD70 /* BaiDuNetdiskDylib.m */; };
+		7355673F206CC619001FDD70 /* SWLTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 7355673B206CC618001FDD70 /* SWLTools.h */; };
+		73556740206CC619001FDD70 /* HookHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 7355673C206CC618001FDD70 /* HookHeader.h */; };
+		73556741206CC619001FDD70 /* NSString+SWL.h in Headers */ = {isa = PBXBuildFile; fileRef = 7355673D206CC619001FDD70 /* NSString+SWL.h */; };
+		73556742206CC619001FDD70 /* SWLTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 7355673E206CC619001FDD70 /* SWLTools.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7355670F206CC5DF001FDD70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 735566F4206CC5DF001FDD70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7355670C206CC5DF001FDD70;
+			remoteInfo = BaiDuNetdiskDylib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		735566FC206CC5DF001FDD70 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				7355670E206CC5DF001FDD70 /* libBaiDuNetdiskDylib.dylib in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		735566FF206CC5DF001FDD70 /* BaiDuNetdisk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaiDuNetdisk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		73556702206CC5DF001FDD70 /* MethodTraceConfig.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = MethodTraceConfig.plist; sourceTree = "<group>"; };
+		73556705206CC5DF001FDD70 /* put ipa or app here */ = {isa = PBXFileReference; lastKnownFileType = text; name = "put ipa or app here"; path = "TargetApp/put ipa or app here"; sourceTree = "<group>"; };
+		73556707206CC5DF001FDD70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7355670D206CC5DF001FDD70 /* libBaiDuNetdiskDylib.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libBaiDuNetdiskDylib.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		73556712206CC5DF001FDD70 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		73556714206CC5DF001FDD70 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		73556716206CC5DF001FDD70 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7355671A206CC5DF001FDD70 /* ANYMethodLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ANYMethodLog.h; path = MethodTrace/ANYMethodLog.h; sourceTree = "<group>"; };
+		7355671C206CC5DF001FDD70 /* ANYMethodLog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ANYMethodLog.m; path = MethodTrace/ANYMethodLog.m; sourceTree = "<group>"; };
+		7355671E206CC5DF001FDD70 /* MethodTrace.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MethodTrace.h; path = MethodTrace/MethodTrace.h; sourceTree = "<group>"; };
+		73556720206CC5DF001FDD70 /* MethodTrace.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MethodTrace.m; path = MethodTrace/MethodTrace.m; sourceTree = "<group>"; };
+		73556723206CC5DF001FDD70 /* BaiDuNetdiskDylib-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BaiDuNetdiskDylib-Prefix.pch"; sourceTree = "<group>"; };
+		73556725206CC5DF001FDD70 /* AntiAntiDebug.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AntiAntiDebug.m; path = AntiAntiDebug/AntiAntiDebug.m; sourceTree = "<group>"; };
+		73556728206CC5DF001FDD70 /* fishhook.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = fishhook.c; path = fishhook/fishhook.c; sourceTree = "<group>"; };
+		7355672A206CC5DF001FDD70 /* fishhook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = fishhook.h; path = fishhook/fishhook.h; sourceTree = "<group>"; };
+		7355672C206CC5DF001FDD70 /* BaiDuNetdiskDylib.xm */ = {isa = PBXFileReference; lastKnownFileType = text; path = BaiDuNetdiskDylib.xm; sourceTree = "<group>"; };
+		7355672D206CC5DF001FDD70 /* BaiDuNetdiskDylib.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = BaiDuNetdiskDylib.mm; sourceTree = "<group>"; };
+		7355672F206CC5DF001FDD70 /* BaiDuNetdiskDylib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaiDuNetdiskDylib.h; sourceTree = "<group>"; };
+		73556731206CC5DF001FDD70 /* BaiDuNetdiskDylib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaiDuNetdiskDylib.m; sourceTree = "<group>"; };
+		7355673B206CC618001FDD70 /* SWLTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWLTools.h; sourceTree = "<group>"; };
+		7355673C206CC618001FDD70 /* HookHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HookHeader.h; sourceTree = "<group>"; };
+		7355673D206CC619001FDD70 /* NSString+SWL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SWL.h"; sourceTree = "<group>"; };
+		7355673E206CC619001FDD70 /* SWLTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWLTools.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		735566F9206CC5DF001FDD70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7355670A206CC5DF001FDD70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73556713206CC5DF001FDD70 /* JavaScriptCore.framework in Frameworks */,
+				73556717206CC5DF001FDD70 /* UIKit.framework in Frameworks */,
+				73556715206CC5DF001FDD70 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		735566F3206CC5DF001FDD70 = {
+			isa = PBXGroup;
+			children = (
+				73556701206CC5DF001FDD70 /* BaiDuNetdisk */,
+				73556718206CC5DF001FDD70 /* BaiDuNetdiskDylib */,
+				73556711206CC5DF001FDD70 /* Frameworks */,
+				73556700206CC5DF001FDD70 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		73556700206CC5DF001FDD70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				735566FF206CC5DF001FDD70 /* BaiDuNetdisk.app */,
+				7355670D206CC5DF001FDD70 /* libBaiDuNetdiskDylib.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		73556701206CC5DF001FDD70 /* BaiDuNetdisk */ = {
+			isa = PBXGroup;
+			children = (
+				73556702206CC5DF001FDD70 /* MethodTraceConfig.plist */,
+				73556707206CC5DF001FDD70 /* Info.plist */,
+				73556704206CC5DF001FDD70 /* TargetApp */,
+			);
+			path = BaiDuNetdisk;
+			sourceTree = "<group>";
+		};
+		73556704206CC5DF001FDD70 /* TargetApp */ = {
+			isa = PBXGroup;
+			children = (
+				73556705206CC5DF001FDD70 /* put ipa or app here */,
+			);
+			name = TargetApp;
+			sourceTree = "<group>";
+		};
+		73556711206CC5DF001FDD70 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				73556712206CC5DF001FDD70 /* JavaScriptCore.framework */,
+				73556714206CC5DF001FDD70 /* Foundation.framework */,
+				73556716206CC5DF001FDD70 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		73556718206CC5DF001FDD70 /* BaiDuNetdiskDylib */ = {
+			isa = PBXGroup;
+			children = (
+				7355673B206CC618001FDD70 /* SWLTools.h */,
+				7355673E206CC619001FDD70 /* SWLTools.m */,
+				7355673C206CC618001FDD70 /* HookHeader.h */,
+				7355673D206CC619001FDD70 /* NSString+SWL.h */,
+				7355672C206CC5DF001FDD70 /* BaiDuNetdiskDylib.xm */,
+				7355672D206CC5DF001FDD70 /* BaiDuNetdiskDylib.mm */,
+				7355672F206CC5DF001FDD70 /* BaiDuNetdiskDylib.h */,
+				73556731206CC5DF001FDD70 /* BaiDuNetdiskDylib.m */,
+				73556719206CC5DF001FDD70 /* MethodTrace */,
+				73556724206CC5DF001FDD70 /* AntiAntiDebug */,
+				73556727206CC5DF001FDD70 /* fishhook */,
+				73556722206CC5DF001FDD70 /* Supporting Files */,
+			);
+			path = BaiDuNetdiskDylib;
+			sourceTree = "<group>";
+		};
+		73556719206CC5DF001FDD70 /* MethodTrace */ = {
+			isa = PBXGroup;
+			children = (
+				7355671A206CC5DF001FDD70 /* ANYMethodLog.h */,
+				7355671C206CC5DF001FDD70 /* ANYMethodLog.m */,
+				7355671E206CC5DF001FDD70 /* MethodTrace.h */,
+				73556720206CC5DF001FDD70 /* MethodTrace.m */,
+			);
+			name = MethodTrace;
+			sourceTree = "<group>";
+		};
+		73556722206CC5DF001FDD70 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				73556723206CC5DF001FDD70 /* BaiDuNetdiskDylib-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		73556724206CC5DF001FDD70 /* AntiAntiDebug */ = {
+			isa = PBXGroup;
+			children = (
+				73556725206CC5DF001FDD70 /* AntiAntiDebug.m */,
+			);
+			name = AntiAntiDebug;
+			sourceTree = "<group>";
+		};
+		73556727206CC5DF001FDD70 /* fishhook */ = {
+			isa = PBXGroup;
+			children = (
+				73556728206CC5DF001FDD70 /* fishhook.c */,
+				7355672A206CC5DF001FDD70 /* fishhook.h */,
+			);
+			name = fishhook;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7355670B206CC5DF001FDD70 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73556741206CC619001FDD70 /* NSString+SWL.h in Headers */,
+				73556740206CC619001FDD70 /* HookHeader.h in Headers */,
+				73556730206CC5DF001FDD70 /* BaiDuNetdiskDylib.h in Headers */,
+				7355671B206CC5DF001FDD70 /* ANYMethodLog.h in Headers */,
+				7355671F206CC5DF001FDD70 /* MethodTrace.h in Headers */,
+				7355672B206CC5DF001FDD70 /* fishhook.h in Headers */,
+				7355673F206CC619001FDD70 /* SWLTools.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		735566FE206CC5DF001FDD70 /* BaiDuNetdisk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73556738206CC5DF001FDD70 /* Build configuration list for PBXNativeTarget "BaiDuNetdisk" */;
+			buildPhases = (
+				735566F8206CC5DF001FDD70 /* Sources */,
+				735566F9206CC5DF001FDD70 /* Frameworks */,
+				735566FA206CC5DF001FDD70 /* ShellScript */,
+				735566FB206CC5DF001FDD70 /* Resources */,
+				735566FC206CC5DF001FDD70 /* CopyFiles */,
+				735566FD206CC5DF001FDD70 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				73556710206CC5DF001FDD70 /* PBXTargetDependency */,
+			);
+			name = BaiDuNetdisk;
+			productName = BaiDuNetdisk;
+			productReference = 735566FF206CC5DF001FDD70 /* BaiDuNetdisk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7355670C206CC5DF001FDD70 /* BaiDuNetdiskDylib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73556735206CC5DF001FDD70 /* Build configuration list for PBXNativeTarget "BaiDuNetdiskDylib" */;
+			buildPhases = (
+				73556708206CC5DF001FDD70 /* ShellScript */,
+				73556709206CC5DF001FDD70 /* Sources */,
+				7355670A206CC5DF001FDD70 /* Frameworks */,
+				7355670B206CC5DF001FDD70 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BaiDuNetdiskDylib;
+			productName = BaiDuNetdiskDylib;
+			productReference = 7355670D206CC5DF001FDD70 /* libBaiDuNetdiskDylib.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		735566F4206CC5DF001FDD70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = weiliang.sun;
+				TargetAttributes = {
+					735566FE206CC5DF001FDD70 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					7355670C206CC5DF001FDD70 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 735566F7206CC5DF001FDD70 /* Build configuration list for PBXProject "BaiDuNetdisk" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 735566F3206CC5DF001FDD70;
+			productRefGroup = 73556700206CC5DF001FDD70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				735566FE206CC5DF001FDD70 /* BaiDuNetdisk */,
+				7355670C206CC5DF001FDD70 /* BaiDuNetdiskDylib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		735566FB206CC5DF001FDD70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73556706206CC5DF001FDD70 /* put ipa or app here in Resources */,
+				73556703206CC5DF001FDD70 /* MethodTraceConfig.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		735566FA206CC5DF001FDD70 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = /opt/MonkeyDev/Tools/pack.sh;
+		};
+		735566FD206CC5DF001FDD70 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/MonkeyDev/Tools/pack.sh codesign";
+		};
+		73556708206CC5DF001FDD70 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/MonkeyDev/bin/md --xcbp-logos";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		735566F8206CC5DF001FDD70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73556709206CC5DF001FDD70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73556742206CC619001FDD70 /* SWLTools.m in Sources */,
+				73556726206CC5DF001FDD70 /* AntiAntiDebug.m in Sources */,
+				73556721206CC5DF001FDD70 /* MethodTrace.m in Sources */,
+				73556729206CC5DF001FDD70 /* fishhook.c in Sources */,
+				7355672E206CC5DF001FDD70 /* BaiDuNetdiskDylib.mm in Sources */,
+				7355671D206CC5DF001FDD70 /* ANYMethodLog.m in Sources */,
+				73556732206CC5DF001FDD70 /* BaiDuNetdiskDylib.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		73556710206CC5DF001FDD70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7355670C206CC5DF001FDD70 /* BaiDuNetdiskDylib */;
+			targetProxy = 7355670F206CC5DF001FDD70 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		73556733206CC5DF001FDD70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		73556734206CC5DF001FDD70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		73556736206CC5DF001FDD70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K8WXJENZKT;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				EXECUTABLE_PREFIX = lib;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/Frameworks/**",
+					"$(MonkeyDevPath)/Librarys/**",
+					"$(MonkeyDevTheosPath)/vendor/lib",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BaiDuNetdiskDylib/BaiDuNetdiskDylib-Prefix.pch";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/include",
+					"$(MonkeyDevTheosPath)/vendor/include/**",
+				);
+				INSTALL_PATH = "@executable_path/Frameworks/libBaiDuNetdiskDylib.dylib";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/Frameworks",
+					"$(MonkeyDevTheosPath)/vendor/lib/**",
+				);
+				MonkeyDevPath = /opt/MonkeyDev;
+				MonkeyDevTheosPath = /opt/theos;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-DTHEOS_INSTANCE_NAME=\"\\\"BaiDuNetdiskDylib\\\"\"",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-weak_library",
+					"/usr/lib/libc++.dylib",
+					"-weak_library",
+					"/usr/lib/libstdc++.dylib",
+					"-lsubstrate",
+					"-framework",
+					Cycript,
+					"-framework",
+					RevealServer,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		73556737206CC5DF001FDD70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = K8WXJENZKT;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				EXECUTABLE_PREFIX = lib;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/Frameworks/**",
+					"$(MonkeyDevPath)/Librarys/**",
+					"$(MonkeyDevTheosPath)/vendor/lib",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BaiDuNetdiskDylib/BaiDuNetdiskDylib-Prefix.pch";
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/include",
+					"$(MonkeyDevTheosPath)/vendor/include/**",
+				);
+				INSTALL_PATH = "@executable_path/Frameworks/libBaiDuNetdiskDylib.dylib";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/Frameworks",
+					"$(MonkeyDevTheosPath)/vendor/lib/**",
+				);
+				MonkeyDevPath = /opt/MonkeyDev;
+				MonkeyDevTheosPath = /opt/theos;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-DTHEOS_INSTANCE_NAME=\"\\\"BaiDuNetdiskDylib\\\"\"",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-weak_library",
+					"/usr/lib/libc++.dylib",
+					"-weak_library",
+					"/usr/lib/libstdc++.dylib",
+					"-lsubstrate",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		73556739206CC5DF001FDD70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K8WXJENZKT;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = BaiDuNetdisk/Info.plist;
+				MONKEYDEV_CLASS_DUMP = NO;
+				MONKEYDEV_RESTORE_SYMBOL = NO;
+				PODS_CONFIGURATION_BUILD_DIR = "$BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				PODS_ROOT = "${SRCROOT}/Pods";
+				PRODUCT_BUNDLE_IDENTIFIER = David.BaiDuNetdisk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7355673A206CC5DF001FDD70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K8WXJENZKT;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = BaiDuNetdisk/Info.plist;
+				MONKEYDEV_CLASS_DUMP = NO;
+				MONKEYDEV_RESTORE_SYMBOL = NO;
+				PODS_CONFIGURATION_BUILD_DIR = "$BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				PODS_ROOT = "${SRCROOT}/Pods";
+				PRODUCT_BUNDLE_IDENTIFIER = David.BaiDuNetdisk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		735566F7206CC5DF001FDD70 /* Build configuration list for PBXProject "BaiDuNetdisk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73556733206CC5DF001FDD70 /* Debug */,
+				73556734206CC5DF001FDD70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73556735206CC5DF001FDD70 /* Build configuration list for PBXNativeTarget "BaiDuNetdiskDylib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73556736206CC5DF001FDD70 /* Debug */,
+				73556737206CC5DF001FDD70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73556738206CC5DF001FDD70 /* Build configuration list for PBXNativeTarget "BaiDuNetdisk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73556739206CC5DF001FDD70 /* Debug */,
+				7355673A206CC5DF001FDD70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 735566F4206CC5DF001FDD70 /* Project object */;
+}

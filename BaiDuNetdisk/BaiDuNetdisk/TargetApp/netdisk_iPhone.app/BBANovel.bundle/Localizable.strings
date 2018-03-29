@@ -1,0 +1,657 @@
+/*
+ * Localizable.strings
+ * BBANovel
+ */
+
+// --common
+"StringConfirmation" = "确定";
+"StringContinue" = "继续";
+"StringCancel" = "取消";
+"StringClear" = "清除";
+"StringBack" = "返回";
+"StringVisit" = "直达";
+"StringIKnowThatIssue" = "我知道了";
+"StringDonotAlertAgain" = "不再提示";
+"StringBackWithBlank" = " 返回"; // 有个空格
+"StringClose" = "关闭";
+"StringSave" = "保存";
+"StringSearchNullMsg" = "您是否忘记输入关键词了？";
+"StringHomePage" = "首页";
+"StringInvalidProtocol" = "打不开该网页，因为网址无效。";
+"StringNetWorkBadStatusHint" = "网络不给力，请稍后重试";
+"StringFeedBack" = "意见反馈";
+
+"StringLocaNotificationAlertAction" = "去看看";
+
+// feed 回首页引导
+"StringHomePageFeedBubbleHint" = "点这里 快速回首页顶部";
+
+// 登录引导
+"StringAccountLoginGuideToastMesage" = "登录后可进行个人数据同步";
+"StringAcocutLoginGuideLoginButtonTitle" = "立即登录";
+"StringAccoutLoginGuildLoginButtonTitleForGuest" = "立即升级";
+
+"StringAccountLoginGuidePleaseLogin" = "登录同步后，数据永不丢失";
+"StringAccountLoginGuidePleaseLoginForCardAdd" = "登录同步后，数据永不丢失";
+"StringAccountLoginGuidePleaseLoginForGuest"  = "升级同步后，数据永不丢失";
+"StringAccountLoginGuideLoginAndSync"       = "登录并同步";
+"StringAccountLoginGuideLoginAndSyncForGuest" = "升级并同步";
+"StringAccountLoginGuideProcessingSync" = "正在同步数据...";
+"StringAccountLoginGuideSyncWithAccount" = "同步到帐号:";
+"StringAccountLoginGuideLastSyncTime" = "上次同步:";
+"StringAccountLoginGuideNonSyncHistory" = "还未同步";
+
+"StringMoreSearchResult" = "更多搜索结果";
+
+
+"StringDateDurationJustNow" = "刚刚";
+"StringDateDurationMinute" = "分钟前";
+"StringDateDurationHour" = "小时前";
+"StringDateDurationDay" = "天前";
+"StringDateDurationMonth" = "月前";
+"StringDateDurationYear" = "年前";
+"StringNew" = "新";
+"StringCardDragRefresh" = "继续下拉更新内容";
+"StringCardToRefresh" = "松手即可更新内容";
+"StringCardIsRefreshing" = "正在更新";
+
+
+//仅在主工程中有引用
+"StringLogoutAccount" = "退出登录";
+"StringHasLogin" = "已登录";
+"StringGuestHasLogin" = "游客";
+"StringGuestAccount" = "游客帐号";
+"StringLogoutAlertTitleStarter" = "确定登出帐号";
+"StringLogoutAlertTitleEnd" = "吗?";
+"StringLogoutConfirm" = "确定退出登录";
+"StringLoginTDLogin" = "扫码登录";
+"StringLoginTDLoginTip1" = "你可以扫码安全登录百度:";
+"StringLoginTDLoginTip2" = "已登录百度时，免输入登录网页版百度";
+"StringLoginTDLoginTip3" = "2.已登录网页版百度时，免输入登录百度";
+"StringLoginTDLoginStartToScan" = "开始扫描";
+"StringLoginAccountUserTip" = "登录帐号：";
+"StringLoginAccountChangeUserTip" = "更换";
+"StringLoginManagementEducation" = "点击这里可以管理你的帐户了";
+"StringLoginGusetUpgrade" = "升级为百度帐号";
+"StringLoginGusetUpgradeBenifit" = "尽享私人定制\\数据同步\\小说离线等功能";
+"StringLoginGusetUpgradeBenifitSkinItem" = "私人定制";
+"StringLoginGusetUpgradeBenifitSkinItemDesc" = "首页背景随心更换，精美皮肤视觉盛宴，更多定制等你发掘";
+"StringLoginGusetUpgradeBenifitSyncItem" = "数据同步";
+"StringLoginGusetUpgradeBenifitSyncItemDesc" = "个人数据云端存储，收藏卡片时时同步，一键登录轻松换机";
+"StringLoginGusetUpgradeBenifitDownloadItem" = "小说离线";
+"StringLoginGusetUpgradeBenifitDownloadItemDesc" = "正版小说离线下载，没有WiFi也省流量，海量内容随时阅读";
+//在主工程|帐户管理组件 中都有引用，
+"StringLoginManagement" = "帐号管理";
+//仅在AccountManager组件中引用
+"StringHelloAccount" = "您好 ";
+"StringAccountLogin" = "登录百度帐号";
+"StringLoginAccount" = "百度帐号登录";
+"StringLogin" = "登录";
+"StringRegister" = "注册";
+"StringLoginNoNetTitle" = "不能检测到您的网络连接";
+"StringLoginNoNetTip" = "无法登录百度帐号";
+"StringLoginLoading" = "   正在载入...";
+"StringLogoutTip" = "确定退出登录？";
+"StringLogoutFailedTip" = "退出失败，请检查您的网络连接";
+"StringLoginConfirm" = "登录确认";
+"StringLoginAccountToPhone" = "即将使用网页版帐号登录";
+"StringLoginAccountToPC1" = "即将使用 ";
+"StringLoginAccountToPC3" = " 登录";
+"StringLoginSyncConfire" = "请确认是否本人操作";
+"StringLoginAccountToPhoneBtn" = "登录百度";
+"StringLoginAccountToPCBtn" = "确认登录";
+"StringLoginSyncCancel" = "取消";
+"StringLoginTDLoginTip" = "你还未登录,请登录后扫码登录网页版";
+"StringLoginTDLoginSuccess" = "登录成功";
+"StringLoginTDLoginFail" = "登录未成功，请重试";
+"StringLoginPortrait" = "头像";
+"StringLoginVoicePrint" = "声纹登录";
+"StringLoginChangePassword" = "设置密码";
+"StringLoginSafePhone" = "密保手机";
+"StringLoginSafeMail" = "密保邮箱";
+"StringLoginActionHistory" = "帐号操作记录";
+"StringLoginGetUserInfoError" = "获取用户信息失败，请稍后重试";
+"StringLoginUserOfflineNeedRelogin" = "用户已不在线，请重新登录";
+"StringLoginSafeTip" = "可用于登录所有百度产品";
+"StringLoginUploadingPortrait" = "正在设置头像...";
+"StringLoginPortraitFormatError" = "图片格式不支持，请换张图片试试";
+"StringLoginGettingUserInfo" = "正在同步信息...";
+"StringLoginPhoneLogin" = "短信快捷登录";
+"FotgetPassword" = "忘记密码";
+"QuickRegister" = "注册";
+"GetPhoneSecurityCode" = "获取手机验证码";
+"BaiduAccountLogin" = "百度帐号登陆";
+"AgreeAndRead" = "我已同意并阅读";
+"BaiduUserAgreement" = "百度用户协议";
+"UseBaiduAccountLogin" = "百度帐号登录";
+"SMSLogin" = "短信验证登录";
+"GuestBindAccountTitle" = "升级为百度帐号";
+"LoginAccount" = "手机号/用户名/邮箱";
+"EnterPassword" = "请输入密码";
+"EnterPhoneNumber" = "请输入手机号";
+"ThirdPartyLogin" = "第三方帐号登录";
+"EnterCaptchaNumber" = "请输入验证码";
+"sendCaptchaTip" = "已发送验证码到该号码";
+"resendCaptcha" = "重新发送验证码";
+"resendCaptchaTime" = "秒后重发";
+"writeCaptcha" = "填写验证码";
+"CaptchaError" = "验证码错误";
+"submitCaptcha" = "提交";
+"loginError" = "帐号或密码错误，请重新填写";
+"CaptchaSecurityTip" = "为了你的帐号安全，请填写图中的字符";
+"CaptchaCharactor" = "验证码";
+"CaptchaConfirm" = "确定";
+"RegisterConfirmTitle" = "提示";
+"RegisterConfirmMessage" = "注册即将完成，确认中断并返回？";
+"RegisterStop" = "中断";
+"RegisterContinue" = "继续";
+"HasRegisterTip" = "注册提示";
+"HasRegisterMessage" = "该手机号已经注册，是否直接登录？";
+"HasRegisterCancel" = "取消";
+"HasRegisterLogin" = "立即登录";
+"AccountManager" = "帐号管理";
+"TipToUsePhoneLogin" = "帐号或密码错误，可以尝试通过短信验证完成登录";
+"TipToUsePhoneLoginConfirm" = "短信登录";
+"TipToUsePhoneLoginCancel" = "放弃";
+
+// --我的账号
+"StringMyAccountTitle" = "我的帐号";
+"StringMyAchievement" = "成就";
+"StringDoTask" = "做任务，领取成就勋章";
+"StringSeeHisAchievemnt" = "偷偷看ta领取了哪些徽章";
+"StringUserInfoSign" = "个性签名";
+"StringUserInfoShow" = "去编辑自己的个人资料";
+"StringUserInfoDefaultSign" = "添加签名，展示你的个性";
+"StringUserOthersDefaultSign" = "ta什么都没留下，想了解ta就私聊吧";
+"StringUserInfoNetError" = "网络无法链接";
+"StringUserInfoSaveError" = "保存失败";
+"StringMyAccountEdit" = "编辑";
+"StringMyAccountComment" = "评论";
+"StringMyAccountFocus" = "关注";
+"StringMyAccountFans" = "粉丝";
+"StringMyAccountCity" = "城市";
+"StringMyAccountAddBlack" = "加入黑名单";
+"StringMyAccountSetRemark" = "设置备注";
+"StringMyAccountCancelFocus" = "取消关注";
+"StringMyAccountChat" = "聊天";
+"StringMyAccountFocus" = "关注";
+"StringMyAccountRemarkName" = "备注名";
+"StringMyAccountInputRemark" = "请输入备注名";
+"StringMyAccountCurrentName" = "用户名";
+"StringMyAccountCityChoose" = "城市选择";
+"StringMyAccountLocCity" = "定位城市";
+"StringMyAccountTotal" = "全部";
+"StringMyAccountAddress" = "添加通讯录好友";
+"StringMyAccountLoactioning" = "正在定位中...";
+"StringMyAccountLoactionFail" = "定位失败，请重试";
+"StringMyAccountBaiduHao" = "百家号";
+"StringMyAccountBaiduHaoDefaultSign" = "百度旗下内容生产平台";
+
+// --浏览页
+"StringMenuTitleSearch" = "搜索";
+
+// serviceType
+"StringServiceTypeWeiniXieShi" = "为你写诗";
+"StringServiceTypeMingXingLian" = "明星脸";
+"StringServiceTypeTieBa" = "贴吧";
+"StringServiceTypeXinWen" = "新闻";
+"StringServiceTypeTuPian" = "图片";
+"StringServiceTypeHao123" = "hao123";
+"StringServiceTypeYingYong" = "应用";
+"StringServiceTypeDiTu" = "地图";
+"StringServiceTypeZhiDao" = "知道";
+"StringServiceTypeWenKu" = "文库";
+"StringServiceTypeShiPin" = "视频";
+"StringServiceTypeBaiKe" = "百科";
+"StringServiceTypeYinYue" = "音乐";
+"StringServiceTypeShenBian" = "身边";
+"StringServiceTypeLvYou" = "旅游";
+"StringServiceMoreOpen" = "更多";
+"StringServiceMoreClose" = "收起";
+
+// --提示信息
+"StringMoreHistory" = "查看更多历史";
+"StringAllSearchHistory" = "全部搜索历史";
+"StringInPrivateMode" = "已开启隐私模式";
+"StringClearSearchHistory" = "清空历史";
+"StringClearSearchHistoryIOS6" = "清除";
+"StringClearSearchHistoryQuery" = "确定清空搜索历史吗？";
+"StringClearSearchHistorySuccess" = "搜索历史清空成功";
+"StringToastTipSaveSuccess" = "保存成功";
+"StringToastTipSaveBookmarkSuccess" = "收藏成功";
+"StringToastTipCancelSaveBookmarkSuccess" = "已取消收藏";
+"StringToastTipSaveFail" = "保存失败";
+"StringToastTipLoading" = "正在加载...";
+"StringToastTipCleanSuccess" = "数据清除成功";
+"StringToastTipNightModeOn" = "夜间模式";
+"StringToastTipNightModeOff" = "日间模式";
+"StringToastTipPrivacyModeOn" = "已关闭搜索历史";
+"StringToastTipPrivacyModeOff" = "隐私模式关闭";
+"StringToastTipShareSuccess" = "分享成功";
+"StringImageSearchShareFail" = "分享未能成功";
+"StringToastTipSaveUrlSucceed" = "网址复制成功";
+"StringToastTipSaveUrlFailed" = "网址复制失败";
+"StringToastTipStorageAlert" = "内存容量过低";
+"StringToastTipDownloadParamError" = "文件错误";
+"StringToastTipDownloadFinished" = "离线完成";
+"StringToastTipDownloadFinishedNovel" = "离线完成";
+"StringToastTipCardAddSuccess" = "已添加到首页";
+"StringToastTipDupDownload" = "重复离线";
+"StringToastTipSetSuccess" = "设置成功";
+
+// --长按图片
+"StringLongPressImageSave" = "保存到相册";
+"StringLongPressImageOpen" = "查看图片";
+"StringLongPressImageShare" = "分享";
+"StringLongPressImageScan" = "识图找信息";
+"StringLongPressImageBarCode" = "识别二维码";
+
+// --长按链接
+"StringLongPressLinkOpen" = "打开";
+"StringLongPressLinkOpenInWindow" = "在新窗口打开";
+"StringLongPressLinkCopy" = "复制";
+
+// --保存图片
+"StringIsSavingImage" = "保存图片中";
+"StringSaveImageSuccess" = "保存图片成功";
+"StringSaveImageFailed" = "保存图片失败";
+
+// 书签历史
+"StringAddBookmarkSuccessTip" = "成功添加收藏";
+"StringEdit" = "编辑";
+"StringBookmark" = "收藏";
+"StringHistory" = "历史";
+"StringCommonHistoryClearAll" = "确认要清空浏览历史吗？";
+"StringNovelReadingHistoryClearAll" = "确认清空要清除小说历史吗？";
+"StringNovelReadingHistoryClearFail" = "清除失败";
+"StringHistorySectionNoHistory" = "没有浏览记录";
+"StringHistorySectionToday" = "今天";
+"StringHistorySectionYesterday" = "昨天";
+"StringHistorySectionThreeDaysAgo" = "三天前";
+"StringHistoryEmptyTip" = "暂无历史记录";
+"StringExitEdit" = "完成";
+"StringCreatDirectory" = "新目录";
+"StringClean" = "清空";
+"StringNoTitle" = "无标题";
+"StringEditBookmark" = "编辑收藏";
+"StringBookmarkSave" = "保存";
+"StringBookmarkCover" = "覆盖";
+"StringBookmarkCoverHint" = "已存在相同书签，是否覆盖？";
+"StringBookmarkDirectoryCreat" = "新建目录";
+"StringBookmarkDirectoryEdit" = "编辑目录";
+"StringBookmarkDirectoryChoose" = "选择目录";
+"StringBookmarkDirectorySameTip" = "已有同名目录，请修改";
+"StringBookmarkShouldNotBeBookmark" = "子目录名不能为\"%@\"";
+"StringBookmarkOK" = "确定";
+"StringBookmarkCancel" = "取消";
+"StringBookmarkDirectoryDeleteTip" = "确定要删除该目录和目录下的所有收藏吗？";
+"StringBookmarkEmptyTip" = "你还没有添加收藏";
+"StringBokkmarkSecondViewEmpty" = "当前目录暂无收藏";
+"StringBookMarkUpdateing" = "收藏格式转换中，请稍侯";
+"StringBookmarkHomeLink" = "快捷入口(首页)";
+
+// 嗅探中间页
+"StringVideoSniffTipMutilSources" = "点击展开可播放视频列表";
+"StringVideoSniffTipSingleSource" = "播放页面中视频";
+"StringVideoSniffVideoListTitle" = "剧集列表";
+"StringVideoSniffVideoCountWithFormat" = "可播放源：共%d个";
+"StringVideoSniffVideoListSubTitle" = "播放列表";
+
+// 百度输入法提示
+"StringBaiduInputLaunchTip" = "想让输入更简单快捷，现在就开启百度输入法吧";
+"StringBaiduInputLaunch" = "开启";
+"StringBaiduInputCancel" = "取消";
+
+// 百度输入法
+"StringBaiduInputMethodNameDefault" = "默认输入法";
+"StringBaiduInputMethodNameBaidu" = "百度输入法";
+"StringBaiduInputRestoreSettings" = "恢复默认设置";
+"StringBaiduInputSettingsTitle" = "输入法";
+"StringBaiduInputMohuSettings" = "模糊音设置";
+"StringBaiduInputShuangPinSettings" = "双拼设置";
+"StringBaiduInputShuangPinSettingsEdit" = "编辑双拼方案\n\n\n\n\n";
+"StringBaiduInputShuangPinSettingsSM" = "(请输入一个字母)";
+"StringBaiduInputShuangPinSettingsYM" = "(请输入一个字母或撇号')";
+
+"StringBaiduInputSanweiCikuUsing" = "正在使用三维词库，检查更新或卸载";
+"StringBaiduInputSanweiCikuInstall" = "立即安装使用，首选率提升43%";
+"StringBaiduInputSanweiCikuUnInstall" = "卸载";
+"StringBaiduInputSanweiCikuDownloading" = "三维词库下载中... \n\n";
+"StringBaiduInputOptimizeCore" = "云优化中...";
+"StringBaiduInputNoNeedUpdate" = "不需要更新";
+"StringBaiduInputUpdateFinished" = "更新完成";
+"StringBaiduInputNoNeedOptimize" = "不需要优化";
+"StringBaiduInputCloudOptimizeFinished"= "云优化成功";
+"StringBaiduInputCloudOptimizeFailed"= "云优化失败";
+"StringBaiduInputNetWorkError" = "网络错误";
+"StringBaiduInputMohuSettings" = "模糊设置";
+"StringBaiduInputShuangPinSettings" = "双拼设置";
+
+"StringBaiduInputDownloadIOS7" = "您还未升级到iOS8系统，请在设置-通用-软件更新中升级后，去App Store下载正式版百度输入法";
+"StringBaiduInputDownloadIOS8" = "百度输入法已发布正式版，点击确定去App Store下载";
+
+// 下载中心
+"StringDownloadManagerTitle" = "下载/离线";
+"StringDownloadManagerEmptyTip" = "这里空空如也,快去离线资源(支持小说,视频,图片)";
+"StringDownloadManagerUnKnownSize" = "未知";
+"StringDownloadManagerRightHereWatingForYou" = "正在等待";
+"StringDownloadManagerDownloadFailed" = "离线失败";
+"StringDownloadManagerClickedRetry" = "点击重试";
+"StringDownloadManagerRetry" = "重试";
+"StringDownloadManagerPlay" = "播放";
+"StringDownloadManagerOpen" = "打开";
+"StringDownloadManagerPause" = "暂停";
+"StringDownloadManagerContinue" = "继续";
+"StringDownloadManagerUsedSize" = "已使用";
+"StringDownloadManagerUnUsed" = "剩余";
+"StringDownloadManagerFreeSize" = "可用";
+"StringDownloadManagerStorageTip" = "请到通用->用量中释放一些空间";
+"StringDownloadManagerCurrent3GTip" = "当前使用的是移动网络, 继续离线可能会产生超额流量费用!";
+"StringDownloadManagerChange3GTip" = "您当前正在使用3G/2G移动网络, 离线已被暂停";
+"StringDownloadManagerCancelDownload" = "取消离线观看";
+"StringDownloadManagerContinueDownload" = "继续离线观看";
+"StringDownloadManagerFreeSize" = "可用";
+"StringDownloadManagerViewDownload" = "查看";
+"StringDownloadManagerDupDownload" = "已存在离线列表中";
+"StringDownloadManagerDownloadParamError" = "文件缺少链接或标题";
+"StringDownloadManagerDownloadFinished" = "离线完成";
+"StringDownloadManagerFileSize" = "文件大小";
+"StringDownloadManagerFileOpenFailedTitle" = "打开失败";
+"StringDownloadManagerFileOpenFailedMsg" = "你所选择文件暂不支持打开";
+"StringDownloadManagerFileOpenNotFound" = "您的文件可能被手机系统删除了,请重新下载";
+"StringDownloadManagerBaiduCloud" = "百度云";
+"StringDownloadManagerStateDownloading" = "正在下载";
+"StringDownloadManagerStateSuspending" = "已暂停";
+
+// 卡片模板
+"StringCardViewBottomLeftButtonTitle" = "分享";
+"StringCardViewBottomRightButtonTitle" = "置顶";
+"StringCardViewBottomDeleteButtonNormalTitle" = "删除";
+"StringCardViewBottomDeleteButtonDisableTitle" = "该卡片不能删除";
+"StringCardViewBottomRemindButtonNormalTitle" = "提醒";
+"StringCardViewBottomDeleteCardButton" = "删除卡片";
+"StringCardViewBottomCanNotDeleteButton" = "此卡片不支持删除";
+
+"StringCardViewRefreshLabelTextJustNow" = "刚刚更新";
+"StringCardViewRefreshLabelTextCoupleMinutes" = "%d分钟前更新";
+"StringCardViewRefreshLabelTextCoupleHours" = "%d小时前更新";
+"StringCardViewRefreshLabelTextJustFourHoursAgo" = "%@更新";
+"StringCardViewRefreshLabelTextJustCoupleDays" = "%d天前更新";
+"StringCardViewRefreshLabelTextJustCoupleMonths" = "%d个月前更新";
+"StringCardViewRefreshLabelTextJustOneYearAgo" = "12个月前更新";
+
+// 天气模板
+"StringWeatherCardViewBottomMiddleButtonTitle" = "未来5天";
+"StringWeatherCardViewSubtitlePrefix" = "今天";
+
+// 股票模板
+"StringStockCardViewBottomMiddleButtonTitle" = "刷新股价";
+
+// 热词模板
+"StringHotwordCardViewBottomMiddleButtonTitle" = "再来一批";
+"StringHotwordCardViewHotwordProfileNew" = "新";
+"StringHotwordCardViewHotwordProfileHot" = "热";
+
+// 追剧模板
+"StringHomePageFollowCardUpTo" = "已更新至";
+"StringHomePageFollowCardNew" = "新";
+
+// 个人中心 (V7.3)
+"StringBusinessEntry"       = "我的交易";
+"StringUtilityEntry"        = "常用功能";
+"StringWalletEntry"         = "百度钱包";
+
+"StringMessagesEntry"       = "消息";
+"StringFriendsEntry"        = "好友";
+"StringAddFriendsEntry"     = "添加";
+
+"StringOrdersEntry"         = "订单";
+"StringCardsCouponsEntry"   = "卡券包";
+
+"StringBookmarksHistoryEntry"   = "收藏/历史";
+"StringDownloadsEntry"          = "下载/离线";
+"StringZhidaEntry"              = "直达号";
+"StringMyAttention"             = "关注";
+"StringPointsEntry"             = "积分";
+"StringDumiEntry"               = "度秘";
+"StringClapEntry"               = "拍一拍";
+"StringSettingsEntry"           = "设置";
+
+"StringMyLoginHint" = "登录后结交好朋友无限畅聊";
+"StringLoginCommand" = "立即登录";
+"StringGuestHasBaiduAccount" = "已有帐号?";
+"StringGuestUpLevelBaiduAccount" = "升级为百度帐号";
+"StringSkinCenterNavigationBarTitle" = "换肤中心";
+"StringClap" = "拍一拍";
+"StringThemeCenter" = "皮肤中心";
+"StringAutoChangeTheme" = "节日节气自动换肤";
+
+// 下载
+"StringDownloadsTitle"      = "下载/离线";
+
+// 皮肤切换
+"StringThemeBaiduClassic" = "百度经典";
+"StringThemeSecenerySkin" = "风景皮肤";
+"StringSkinClassicRest" = "已恢复经典模式";
+
+// 问候语
+"StringGoodMorning"             = "上午好";
+"StringGoodNoon"                = "中午好";
+"StringGoodAfternoon"           = "下午好";
+"StringGoodEvening"             = "晚上好";
+"StringHello"                   = "你好";
+
+// 垂直首页
+"StringDiscoveryCenterLoadFail" = "网络不给力，请稍后再试";
+"StringDiscoveryCenterLoadAgain" = "重新加载";
+"StringDiscoveryCenterLoading" = "正在加载...";
+"StringDiscoveryCenterMore" = "更多";
+
+// 垂直频道－美图
+"StringBeautyTitle"         = "图片";
+"StringBeautySaving"        = "保存中...";
+"StringBeautySaved"         = "已保存到相册";
+"StringBeautySaveFailed"    = "保存失败";
+//"StringBeautyShareText"     = "我正在看";
+"StringBeautySaveFailedAlertTitle"   = "温馨提示";
+"StringBeautySaveFailedAlertMessage" = "请在iPhone的“设置-隐私-照片”选项中，允许百度访问您的照片。";
+"StringBeautySaveFailedAlertCancel"  = "知道啦";
+
+// 公共刷新
+"StringPullDownToRefresh" = "下拉可以刷新";
+"StringReleaseToRefresh"  = "松开即可刷新";
+"StringRefreshing"        = "正在刷新...";
+"StringLastRefreshTime"   = "最后更新时间";
+"StringNoRefresh"         = "未更新";
+
+"StringFooterReady"       = "上拉加载更多";
+"StringFooterLoading"     = "　　加载中...";
+"StringFooterEnd"         = "已经到底啦!";
+"StringFooterLoadFailed"  = "加载失败，上拉重试";
+"StringLoadError" = "加载失败";
+
+// 轻应用
+"StringLAMinStorageTip" = "请到通用->用量中释放一些空间";
+"StringLAEdit" = "编辑";
+"StringLADone" = "完成";
+
+// 小说阅读
+"StringNovelGetChapterError" = "章节加载失败，请稍后重试";
+"StringNovelNoTitle" = "无标题";
+
+"StringLoginOAuthTitle" = "登录授权";
+"StringLoginOAuthProgress" = "登录授权中";
+
+// 首页主题切换
+"StringThemeDownloadFail" = "下载未成功，请重试";
+"StringThemeUseFail" = "使用未成功，请重新下载";
+
+// 卡片提醒
+"StringNotificationSwitchAlertTitle" = "百度通知未开启";
+"StringReminderAddSuccess" = "提醒添加成功，将在开赛前收到该提醒";
+"StringReminderAddFailed" = "提醒添加失败";
+"StringReminderCancelSuccess" = "提醒取消成功";
+"StringReminderOutDate" = "提醒已过期, 正在刷新卡片";
+
+// phone alert
+"StringPhoneAlertCancel" = "取消";
+"StringPhoneAlertCall" = "呼叫";
+"StringNotificationSwitchAlertBody" = "";
+
+// 钱包
+"StringPurseHomeTile" = "我的钱包";
+"StringMyBalance" = "账户余额";
+"StringMyCardTile" = "我的银行卡";
+"StringWalletCoupon" = "钱包优惠券";
+"StringMyTradeTile" = "我的交易";
+"StringPaySecurityTile" = "支付安全";
+"StringUserDefaultName" = "百度用户";
+"StringPassSDKRegButton" = "手机号快捷登录";
+"StringLotteryWin" = "中奖";
+"StringWaitRec" = "等待收款";
+
+// SSO
+"StringSSOAuthButtonTitle" = "授权并登录";
+"StringSSOAuthVCTitle" = "授权登录";
+"StringSSOAuthBaiduLabelText" = "百度";
+"StringSSOAuthChangeAccountButtonTitle" = "切换帐号";
+"StringSSOAuthFailToastText" = "登录失败，请重试";
+
+"StringPassSDKRegButton" = "手机号快捷登录";
+
+// 小说
+"StringNovelTitle" = "小说";
+"StringNovelBookShelf" = "书架";
+"StringNovelFeatured" = "精选";
+"StringNovelBoy" = "男生";
+"StringNovelGirl" = "女生";
+"StringNovelRank" = "排行";
+"StringNovelCategories" = "分类";
+"StringNovelSearch" = "搜索";
+"StringNovelContinue" = "继续";
+"StringNovelShelfLastChapterPrefix" = "最新章节：";
+"StringNovelShelfCellButtonPause" = "暂停";
+"StringNovelShelfCellButtonResume" = "继续";
+"StringNovelShelfCellButtonRetry" = "重试";
+"StringNovelShelfCellOffline" = "已离线";
+"StringNovelShelfCellOfflineGoingOn" = "离线中";
+"StringNovelShelfActionSheetDeleteHint" = "删除小说";
+"StringNovelShelfCellDeleteHint" = "删除";
+"StringNovelShelfCellUnKnownDate" = "没有获取到内容";
+"StringNovelShelfCellUpdateTip" = "更新";
+"StringNovelDownloadTip" = "书架全新上线, 离线小说尽在首页\"小说\"频道";
+"StringNovelShelfEmptyTopTitleFirstLine" = "行动起来";
+"StringNovelShelfEmptyTopTitleSecondLine" = "用你喜欢的小说装满书架吧";
+"StringNovelShelfEmptyTableRankContent" = "最新最热 汇聚一堂";
+"StringNovelShelfEmptyTableCategoryContent" = "各类小说 有你所爱";
+"StringNovelShelfEmptyTableSearchContent" = "集你所爱 应你所求";
+"StringNovelShelfEmptyTableSelectionContent" = "大浪淘金 诚意臻选";
+"StringNovelShelfUpdateTipNone" = "暂无小说更新";
+"StringNovelShelfUpdateTipNew" = "有%d本小说更新了";
+"StringNovelShelfUpdateTipFail" = "刷新失败,请检查网络";
+"StringNovelCatalogTitle" = "目录";
+"StringNovelBookmarkTitle" = "书签";
+"StringNovelBookmarkNoneHint" = "你还没有添加书签";
+"StringNovelCatalogNoneHint" = "没有找到目录";
+"StringNovelAddToShelfAlertTitle" = "加入书架";
+"StringNovelAddToShelfAlertContent" = "喜欢这本书就加入书架吧？";
+"StringNovelDupDownloadTip" = "已存在同名小说, 是否覆盖并重置阅读进度？";
+"StringNovelCatalogReverse" = "倒序";
+"StringNovelCatalogSequence" = "正序";
+"StringNovelCatalogTotal" = "共%d章";
+"StringNovelOfflineTotalSizeM" = "此小说离线包大小为%.1fM, 是否马上离线？";
+"StringNovelOfflineTotalSizeK" = "此小说离线包大小为%.0fK, 是否马上离线？";
+"StringNovelRemoveFromShelfTip" = "移出书架成功";
+"StringNovelAddToShelfTip" = "加入书架成功";
+"StringNovelDownloadNovelTitle" = "离线小说";
+"StringNovelDownloadNovelSizeLoading" = "正在准备离线包....";
+"StringNovelDownloadNovelConfirmation" = "马上离线";
+"StringNovelDownloadingTip" = "正在离线，请稍后重试";
+"StringNovelLoadingOnlineChapterTip" = "在线阅读会耗费流量，加载中...";
+"StringNovelLoadingOnlineChapterMessage" = "正在加载...";
+"StringNovelLoadingOfflineChapterMessage" = "该章节尚未离线，加载中...";
+"StringNovelLoadingTip" = "正在加载...";
+"StringNovelLoadingNetworkError" = "网络不给力，请稍后重试";
+"StringNovelReadingInOnlineModeTip" = "在线阅读中，会耗费少许流量";
+"StringNovelChangeSrcNetError" = "网络不给力，请稍后重试";
+"StringNovelChangeSrcReload" = "重新加载";
+"StringNovelChangeSrcEmpty" = "该章节没有可更换的来源";
+"StringNovelChangeSrcLoading" = "正在加载...";
+"StringNovelChangeSrcLoadFailed" = "切换来源失败，请稍后重试";
+"StringNovelChangeSrcComplexLink" = "查看当前章节链接";
+"StringHomePageHeadNavigationMore" = "更多";
+"StringNovelSearchButton" = "搜";
+"StringNovelAccountButton" = "帐";
+"StringNovelMyNovelAccount" = "我的小说帐户";
+"StringNovelChapterFree" = "免费";
+"StringNovelChargeHintText" = "以下是付费章节，需付费阅读";
+"StringNovelChargeHintText1" = "百度用户专享特惠，史上最低价";
+"StringNovelChargeHintButtonTitle" = "付费阅读";
+"StringNovelChargeHintAd" = "你还可以选择其他方式阅读";
+"StringNovelChargeHintAdButtonTitle" = "领取含广告阅读特惠，随便看";
+"StringNovelLoginHintText" = "以下是精品章节，需登录阅读";
+"StringNovelLoginHintText1" = "登录享更多阅读优惠，全场精品小说随便看";
+"StringNovelLoginHintButtonTitle" = "立即登录";
+"StringNovelAdRestHint" = "让眼睛休息一下，点击空白区域";
+"StringNovelAdNextChapterHint" = "进入下一章";
+"StringNovelAdRemoveButtonTitle" = "去除广告";
+"StringNovelNoPreviousChapterHint" = "已到达第一页";
+"StringNovelNoNextChapterHint" = "已经是最后一章";
+"StringNovelClearOfflineDataHint" = "你已离线的章节有变更，是否删除离线文件，进入在线阅读？";
+"StringNovelClearOfflineDataHintYes" = "是";
+"StringNovelClearOfflineDataHintNo" = "否";
+
+"StringNovelPurchaseAlertTitle" = "购买阅读";
+"StringNovelPurchaseAlertContent" = "该书为精品小说，开通购买全本服务才能离线，是否要购买？";
+"StringNovelPurchaseAlertConfirm" = "前往购买";
+"StringNovelPurchaseAlertCancel" = "取消";
+"StringNovelReloadHintText" = "网络异常或数据加载失败";
+"StringNovelReloadButtonTitle" = "重新加载";
+"StringNovelBuyChapterSuccessNomarlText" = "购买成功";
+"StringNovelBuyChapterSuccessAddToShelfText" = "购买成功,已加入书架";
+"StringNovelBuyChapterSuccessButtonText" = "查看";
+
+"StringNovelPurchaseConfirmTitle" = "领取特惠";
+"StringNovelAdOrderSucceed" = "恭喜你，特惠领取成功，31天内可免费阅读全场精品小说";
+"StringNovelAdOrderFailed" = "领取广告特惠失败，请稍后重试";
+
+"StringNovelAdRemoveAlertTitle" = "付费阅读";
+"StringNovelAdRemoveAlertContent" = "你现在的阅读模式为免费含广告阅读，关闭广告需购买付费阅读服务，是否要购买？";
+"StringNovelAdRemoveAlertConfirm" = "立即购买";
+"StringNovelAdRemoveAlertCancel" = "取消";
+"StringNovelBookmarkDefaultForOfficalBook" = "精品章节";
+"StringNovelBookmarkDefaultForFree" = "内容加载失败";
+
+"StringNovelOfflineContentError" = "离线的小说章节出错，请重新离线";
+"StringNovelDownloadNow" = "立即离线";
+
+"StringNovelReaderTTSTone" = "音调";
+"StringNovelReaderTTSToneColour" = "音色";
+"StringNovelReaderTTSToneQuality" = "音质";
+"StringNovelReaderTTSSpeed" = "语速";
+"StringNovelReaderTTSToneQualityOffline" = "离线标准质量";
+"StringNovelReaderTTSToneQualityOnline" = "在线高质量";
+"StringNovelReaderTTSToneMan" = "磁性男声";
+"StringNovelReaderTTSToneWoman" = "甜美女声";
+"StringNovelReaderTTSToneLinZhiling" = "林志玲";
+"StringNovelReaderTTSToneHigh" = "高";
+"StringNovelReaderTTSToneLow" = "低";
+"StringNovelReaderTTSToneQuick" = "快";
+"StringNovelReaderTTSToneSlow" = "慢";
+"StringNovelReaderTTSExit" = "退出朗读模式";
+"StringNovelReaderTTSNetwordError" = "网络不给力，为你切换到离线朗读模式";
+
+"StringNovelReaderCommentJustNow" = "刚刚";
+"StringNovelReaderCommentCoupleMinutes" = "%d分钟前之前";
+"StringNovelReaderCommentCoupleHours" = "%d小时前之前";
+"StringNovelReaderCommentToday" = "今天";
+"StringNovelReaderCommentYesterday" = "昨天";
+"StringNovelReaderCommentTitle" = "贴吧书评";
+"StringNovelReaderCommentFollowNum" = "%@人关注";
+"StringNovelReaderCommentTotalNum" = "%@条帖子";
+"StringNovelReaderCommentEnter" = "进吧";
+"StringNovelReaderCommentIssue" = "发表评论";
+"StringNovelReaderCommentButtonTitle" = "去贴吧讨论";
+
+"StringNovelTakeSignInInBaiduBoxApp" = "这是百度专属福利，每天您最多可以获得20书券，1书券=1书豆，您需要去百度进行福利的领取！";
+"StringNovelTakeWelfareInBaiduBoxApp" = "这是百度专属福利，一周您最多可以获取410书券，您需要去百度进行福利的领取！";

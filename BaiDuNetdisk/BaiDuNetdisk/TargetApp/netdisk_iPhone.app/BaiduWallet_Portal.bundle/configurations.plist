@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BDWalletSDKChannelID</key>
+	<string>bdcloud</string>
+	<key>BDWalletSDKHasHomepage</key>
+	<string>5</string>
+	<key>BDWalletSDKVersion</key>
+	<string>7.1.2.0</string>
+	<key>BMW_AppId</key>
+	<string>cf343d465e</string>
+	<key>CHANNEL_NUM</key>
+	<string>CHF0000026</string>
+	<key>GitCommitID</key>
+	<string>c64dba7</string>
+</dict>
+</plist>

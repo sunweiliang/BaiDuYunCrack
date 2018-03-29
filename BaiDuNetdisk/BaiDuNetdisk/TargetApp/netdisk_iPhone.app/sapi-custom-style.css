@@ -1,0 +1,92 @@
+    /*顶部*/
+    .pass-header{
+        background: #fff;/*背景色*/
+        border-bottom:1px solid #ccc;/*1像素的下边框*/
+    }
+    /*顶部右边的按钮，如果不需要右边按钮可以在这个类中将display设为none*/
+    .pass-header-links{
+        border: 1px solid #fff;/*边框*/
+        background: #fff;/*背景色*/
+        color:#666;/*字体的颜色*/
+    }
+    /*顶部title字体的设置*/
+    .pass-header-title{
+        color:#000;/*字体的颜色*/
+    }
+    /*顶部logo图片设置*/
+    .pass_header_logo {
+        /*注意： "[ pass_header_logo_img ]" 不能改动, */
+        background: url("[pass_header_logo_img]") no-repeat 0 50%;/*logo图片,height不能超过40px*/
+        -webkit-background-size: 18px 20px;
+    }   
+    /*顶部返回按钮的设置*/
+    .pass-header-back{
+        /*注意： "[ pass_header_back_btn_bg_img ]" 不能改动, */
+        background: url("[pass_header_back_btn_bg_img]") no-repeat 15px 13px;
+        -webkit-background-size: 12px 20px;
+    }
+    /*以上为顶部css设置*/
+
+    /*一级button,例如，submit,找回密码页面的按钮*/
+    /*一级button可点击状态*/
+    .pass-button-full{
+        background: #488ee7;/*背景色*/
+        border: 1px solid #488ee7;/*边框*/
+        color:#fff;/*字体的颜色*/
+    }
+
+    /*一级button被禁用状态*/
+    .pass-button-full-disabled{
+        background: #a4c7f3;/*背景色*/
+        border: 1px solid #a4c7f3;/*边框*/
+        color:#fff;/*字体的颜色*/
+    }
+
+    /*一级button,touch down效果*/
+    .pass-button-full-active{
+        background: #2375de;/*背景色*/
+        border: 1px solid #2375de;/*边框*/
+        color:#fff;/*字体的颜色*/
+    }
+    /*以上为一级button css设置*/
+
+    /*二级button,例如，发送验证码*/
+    /*二级button,默认效果*/
+    .pass-button-auto{
+        border:1px solid #ddd;/*边框*/
+        background: #f1f1f1;/*背景色*/
+        color:#666;/*字体的颜色*/
+    }
+
+    /*二级button,touch down效果*/
+    .pass-button-auto-active{
+        background: #eee;/*边框*/
+        color:#666;/*字体的颜色*/
+    }
+
+    /*倒计时状态*/
+    .pass-button-disabled{
+        border: 1px solid #ebebeb;/*边框*/
+        background: #f7f7f7;/*背景色*/
+        color:#666;/*字体的颜色*/
+    }
+    /*以上为二级button css设置*/
+
+    /*三级button效果,例如：登录页面手机一键注册的btn*/
+    /*三级button,默认效果*/
+    .pass-button-minor{
+        background: #e1e1e1;/*边框*/
+        border: 1px solid #d5d5d5;/*背景色*/
+        color:#666;/*字体的颜色*/            
+    }
+
+    /*帐号列表样式*/
+    .user-account-list li.pass-user-list-check{
+        background-color: #e7e7e7; /*当前选中的背景色*/
+    }
+
+    .user-account-list li.pass-user-list-check a{
+            background:url('') no-repeat right 50%;/*当前选中表示的对勾*/
+        -webkit-background-size:20px 20px; /*这个地方不准修改*/
+        color:#1b66c7;/*选中的字体颜色*/        
+    }

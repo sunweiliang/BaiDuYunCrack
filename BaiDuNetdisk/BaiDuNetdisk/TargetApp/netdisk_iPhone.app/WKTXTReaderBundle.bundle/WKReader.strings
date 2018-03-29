@@ -1,0 +1,31 @@
+/* 
+  WKReader.strings
+  
+
+  Created by 任 洪杰 on 14-12-08.
+
+*/
+
+"StringUndo" = "撤销";
+"StringProgress" = "进度";
+"StringChapter" = "章节";
+"StringLoadFailedInfoThirdLine"     = "2.找不到你要访问的页面";
+"StringLoadFailedInfoFourthLine"    = "3.你输入的网址不正确";
+"StringLoadFailedRefresh"           = "立即刷新";
+"StringNovelCatalogTotal" = "共%d章";
+"StringCancel" = "取消";
+"StringNovelCatalogTitle" = "目录";
+"StringNovelBookmarkTitle" = "书签";
+"StringNovelCatalogReverse" = "倒序";
+"StringNovelCatalogSequence" = "正序";
+"StringNovelCatalogNoneHint" = "没有找到目录";
+"StringNovelChapterFree" = "免费";
+"StringNovelBookmarkNoneHint" = "你还没有添加书签";
+"StringNovelBookmarkDefaultForFree" = "内容加载失败";
+"StringNovelBookmarkDefaultForOfficalBook" = "精品章节";
+
+"StringNovelReaderTTSToneQualityOffline" = "离线标准质量";
+"StringNovelReaderTTSToneQualityOnline" = "在线高质量";
+"StringNovelReaderTTSToneMan" = "磁性男声";
+"StringNovelReaderTTSToneWoman" = "甜美女声";
+"StringNovelReaderTTSExit" = "退出朗读模式";

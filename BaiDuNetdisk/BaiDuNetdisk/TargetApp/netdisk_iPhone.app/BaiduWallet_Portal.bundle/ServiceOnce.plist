@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>ConfigURL</string>
+		<key>class</key>
+		<string>BDWalletConfigURLImpl</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>ConfigChannel</string>
+		<key>class</key>
+		<string>BDWalletConfigChannelImpl</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>BDWalletSecurityCenterFPSetingService</string>
+		<key>class</key>
+		<string>BDWalletSecurityCenterFPSetingServiceImpl</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>BDWalletSecurityCenterFreePasswordSetingService</string>
+		<key>class</key>
+		<string>BDWalletSecurityCenterFreePasswordSetingServiceImpl</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>BDWalletTracker</string>
+		<key>class</key>
+		<string>BDWalletTrackerImplV2</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>BDWalletSecurityCenterPasswordService</string>
+		<key>class</key>
+		<string>BDWalletSecurityCenterPasswordServiceImpl</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>BDWalletLoginPassManagerService</string>
+		<key>class</key>
+		<string>BDWalletLoginPassManagerServiceImpl</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>BDWalletSecurityCenterPasswordManagerService</string>
+		<key>class</key>
+		<string>BDWalletSecurityCenterPasswordManagerServiceImpl</string>
+	</dict>
+</array>
+</plist>

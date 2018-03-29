@@ -1,0 +1,12 @@
+/* 
+  BBAUIKit.strings
+  
+
+  Created by guojin on 14-8-21.
+
+*/
+"BBAUIKitStringNetWorkBadStatusHint" = "网络不给力，请稍后重试";
+"BBAUIKitStringConfirmation" = "确定";
+"BBAUIKitStringNetWorkReload" = "重新加载";
+"BBAUIKitStringBack" = "返回";
+"BBAUIKitStringHardLoading"  = "加载中...";
