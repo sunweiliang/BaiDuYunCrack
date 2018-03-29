@@ -34,13 +34,14 @@ sudo /bin/sh -c "$(curl -fsSL https://raw.githubusercontent.com/AloneMonkey/Monk
 
 - 打开工程 BaiDuNetdisk/BaiDuNetdisk.xcodeproj 
 - 选择证书：Targets-General-Signing
-- 选择设备(不可选择模拟器)运行。
+- 选择设备(不可选择模拟器，且仅支持64位设备)运行。
 
 
 ## 版权及免责声明
 
 - iOS逆向实践，不可使用于商业和个人其他意图。一切问题均由个人承担，与本人无关。
 - 感谢MonkeyDev的作者庆总。
+- 如内容对您的权利造成了影响，请[issues](https://github.com/sunweiliang/BaiDuYunCrack/issues), 我会在第一时间进行删除。
 
 
 
