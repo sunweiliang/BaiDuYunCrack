@@ -32,7 +32,7 @@ sudo /bin/sh -c "$(curl -fsSL https://raw.githubusercontent.com/AloneMonkey/Monk
 
 #### 2、运行工程
 
-- 打开工程 BaiDuNetdisk.xcodeproj 
+- 打开工程 BaiDuNetdisk/BaiDuNetdisk.xcodeproj 
 - 选择证书：Targets-General-Signing
 - 选择设备(不可选择模拟器)运行。
 
@@ -60,7 +60,7 @@ sudo /bin/sh -c "$(curl -fsSL https://raw.githubusercontent.com/AloneMonkey/Monk
 
 ## 华丽的分割线
 
-点右上角的 Start 可以领红包，我已经试过了。
+点右上角的 Start 可以领红包，不信你试试︿(￣︶￣)︿。
 
 
 
