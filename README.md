@@ -49,11 +49,11 @@ sudo /bin/sh -c "$(curl -fsSL https://raw.githubusercontent.com/AloneMonkey/Monk
 
 
 
-![img01](/Users/ios-dev/Documents/github/BaiDuYunCrack/resources/img01.jpeg)
+![img01](./resources/img01.jpeg)
 
 
 
-![img02](/Users/ios-dev/Documents/github/BaiDuYunCrack/resources/img02.jpeg)
+![img02](./resources/img02.jpeg)
 
 
 
