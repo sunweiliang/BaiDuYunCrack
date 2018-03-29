@@ -6,7 +6,7 @@
 
 #### 1、安装MonkeyDev(如已安装，跳过)
 
-- 安装最新的[theos](https://github.com/theos/theos/wiki/Installation)
+- 安装最新的theos
 
 ```
 sudo git clone --recursive https://github.com/theos/theos.git /opt/theos
